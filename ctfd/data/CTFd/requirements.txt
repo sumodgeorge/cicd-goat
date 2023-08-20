@@ -10,7 +10,7 @@ attrs==20.3.0             # via jsonschema
 bcrypt==3.1.7             # via -r requirements.in
 boto3==1.13.9             # via -r requirements.in
 botocore==1.16.26         # via boto3, s3transfer
-certifi==2020.11.8        # via requests
+certifi==2023.7.22        # via requests
 cffi==1.14.3              # via bcrypt, cmarkgfm, pybluemonday
 chardet==3.0.4            # via requests
 click==7.1.2              # via flask
@@ -50,7 +50,7 @@ python-editor==1.0.4      # via alembic
 python-geoacumen-city==0.0.1  # via -r requirements.in
 pytz==2020.4              # via flask-restx
 redis==3.5.2              # via -r requirements.in
-requests==2.23.0          # via -r requirements.in
+requests==2.31.0          # via -r requirements.in
 s3transfer==0.3.3         # via boto3
 six==1.15.0               # via bcrypt, flask-marshmallow, flask-restx, jsonschema, python-dateutil, sqlalchemy-utils, tenacity
 sqlalchemy-utils==0.36.6  # via -r requirements.in
