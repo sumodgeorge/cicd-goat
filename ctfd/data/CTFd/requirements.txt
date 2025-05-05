@@ -24,7 +24,7 @@ flask-restx==0.2.0        # via -r requirements.in
 flask-script==2.0.6       # via -r requirements.in
 flask-sqlalchemy==2.4.3   # via -r requirements.in, flask-migrate
 flask==1.1.2              # via -r requirements.in, flask-caching, flask-marshmallow, flask-migrate, flask-restx, flask-script, flask-sqlalchemy
-gevent==20.9.0            # via -r requirements.in
+gevent==25.4.1            # via -r requirements.in
 greenlet==0.4.17          # via gevent
 gunicorn==20.0.4          # via -r requirements.in
 idna==2.10                # via requests
@@ -66,3 +66,4 @@ zope.interface==5.2.0     # via gevent
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
